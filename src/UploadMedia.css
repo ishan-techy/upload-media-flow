@@ -1,0 +1,61 @@
+.Paper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 27vh;
+  margin: auto;
+  background: rgb(238, 243, 248) !important;
+  border: 3px dashed #ccc;
+  border-radius: 20px !important;
+}
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
+.container {
+  background: rgb(238, 243, 248) !important;
+}
+.child {
+  margin: 25px;
+}
+.uploadingCard {
+  position: relative;
+  top: 0;
+  background-color: white;
+  padding: 0 0 20px 0;
+  border-radius: 10px;
+  margin: 0 3%;
+  overflow: hidden;
+}
+.paddingH {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.lsp {
+  line-height-step: initial;
+}
+.alert {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  width: auto;
+  height: 5vh;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2vh 0;
+  background: #fee2e2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.alertText {
+  font-size: 18px !important;
+  width: 85%;
+  color: #dc2626;
+}
+.alertLine {
+  display: block;
+  height: 200%;
+  width: 5px;
+  background: #dc2626;
+  margin-right: 15px;
+}

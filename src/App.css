@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+.bodyy {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: rgb(238, 243, 248);
+}

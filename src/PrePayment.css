@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+.container {
+  background: rgb(238, 243, 248) !important;
+}
+.child2 {
+  margin: 20px;
+}
+
+select {
+  border: none !important;
+}
+.button {
+  position: sticky;
+  bottom: 20px;
+}
