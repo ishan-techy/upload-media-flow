@@ -8,11 +8,11 @@ import Success from "./Success";
 export default function App() {
   return (
     <>
-      <AppBarBottomButton />
+      {/* <AppBarBottomButton /> */}
       {/* <PreviewScreen /> */}
       {/* <PrePayment /> */}
       {/* <Failed /> */}
-      {/* <Success /> */}
+      <Success />
     </>
   );
 }

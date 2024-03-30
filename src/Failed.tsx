@@ -14,10 +14,11 @@ const styles = createStyles({
     display: "flex",
     flexDirection: "column",
     minHeight: "100vh",
+    backgroundColor: "rgb(238, 243, 248)",
   },
   appBar: {
     backgroundColor: "rgb(238, 243, 248)",
-    height: "65px",
+    height: "10vh",
   },
   menuButton: {
     padding: 0,
@@ -30,6 +31,7 @@ const styles = createStyles({
     flexDirection: "column",
     justifyContent: "center",
     margin: "0 25px",
+    height: "15vh",
   },
   button: {
     height: "65px",
@@ -44,12 +46,16 @@ const styles = createStyles({
     textAlign: "center",
     color: "rgb(133,133,133)",
     fontSize: "17px",
+    margin: "3%",
   },
   typography2: {
     textAlign: "center",
     fontWeight: "bold",
     fontSize: "22px",
     marginBottom: "15px",
+  },
+  button2: {
+    marginBottom: "10px",
   },
 });
 
@@ -67,8 +73,8 @@ class Failed extends Component<Props> {
           </Toolbar>
         </AppBar>
         <div className="container">
-          <img src={mainImg} alt="" className="mainImg" />
           <div className="child">
+            <img src={mainImg} alt="" className="mainImg" />
             <Typography variant="h4" className={classes.typography2}>
               Payment Failed
             </Typography>
@@ -79,7 +85,7 @@ class Failed extends Component<Props> {
           </div>
         </div>
         <div className={classes.content}>
-          <Button fullWidth className="button" variant="text">
+          <Button fullWidth className={classes.button2} variant="text">
             Cancel
           </Button>
           <Button className={classes.button} fullWidth variant="contained">
